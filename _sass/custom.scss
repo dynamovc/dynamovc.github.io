@@ -1,0 +1,151 @@
+/* Show it is fixed to the top */
+@import url('https://fonts.googleapis.com/css?family=Podkova|Open+Sans');
+
+
+$gray: #4B4F54;
+$dark-red: #B21E28;
+$lite-red: #E63C2F;
+$green: #085156;
+$white: #fff;
+$navbar-default-link-hover-color: $lite-red;
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /*min-height: 2000px;*/
+  padding-top: 100px;
+  margin-bottom: 20px;
+  font-family: 'Podkova', serif;
+  color: #gray;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: 'Podkova', serif;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+p {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  background-color: $green;
+  font-size: 12px;
+}
+
+.navbar{
+	min-height: 75px;
+	background-color: $white;
+	font-size: 18px;
+	border-bottom: 0px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 28.5px;
+ 	padding-bottom: 28.5px;
+ 	color: $gray;
+}
+
+.navbar-brand{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.nav > li > a {
+	color:$gray;
+}
+
+.nav > li > a:hover{ 
+    background-color: $lite-red; 
+    color: $white;
+    font-weight: bold;
+}
+
+.jumbotron{
+	background: url("/img/jtronBG.jpg") center center;
+	
+}
+
+#jumboTitle, p.lead{
+	color: $white;
+}
+
+#attention{
+	background-color: $green;
+	margin-top: 0px;
+
+}
+
+
+.btn-primary{
+	background: $dark-red;
+	border-color: $dark-red;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: $lite-red;
+    border-color: $lite-red; 
+}
+
+
+.modal-dialog {width:600px;}
+.thumbnail {margin-bottom:6px;}
+
+a {
+color:$lite-red;}
+
+a:hover {
+color:$dark-red;}
+
+#social-icons > a {
+color:$gray;}
+
+#social-icons > a:hover {
+color:$lite-red;}
+
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
