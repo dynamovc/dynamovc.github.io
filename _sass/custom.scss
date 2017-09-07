@@ -72,6 +72,22 @@ p {
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+@media (max-width: 767px){
+
+	.nav-pills > li{
+		float: none;
+	}
+
+	.navbar-brand{
+		height: none;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+		margin-top: 20px; 
+		border-bottom: 1px solid #e7e7e7;
+	}
+
+}
+
 
 .nav > li > a {
 	color:$gray;
@@ -83,6 +99,19 @@ p {
     font-weight: bold;
 }
 
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+.navbar-toggle .icon-bar {
+	width: 32px;
+	height: 4px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: $lite-red;
+}
+
 .jumbotron{
 	background: url("/img/jtronBG.jpg") center center;
 	
@@ -92,13 +121,50 @@ p {
 	color: $white;
 }
 
-#attention{
-	background-color: $green;
-	margin-top: 0px;
-
+#teamclear {
+	display: none;
 }
 
+@media (max-width: 767px){
+	#teamclear {
+		display: block;
+	}
+}
 
+/*
+#newsletter{
+	background-color: $green;
+	padding: 40px 0;
+}
+
+#newsletter h1, h2 {
+	color: $white;
+}
+
+#newsletter #mc_embed_signup_scroll h2, #newsletter .indicates-required {
+	display: none;
+}
+
+@media (max-width: 767px){
+ 
+ #newsletter h1, h2 {
+ 	padding: 0 20px;
+ }
+
+ #newsletter h1 {
+ 	font-size: 24px;
+ }
+
+#newsletter h2 {
+	font-size: 18px;
+ }
+
+ #newsletter form {
+ 	padding: 0 20px;
+ 	margin-top: 10px;
+ }
+}
+*/
 .btn-primary{
 	background: $dark-red;
 	border-color: $dark-red;
@@ -112,7 +178,7 @@ p {
 
 
 .modal-dialog {width:600px;}
-.thumbnail {margin-bottom:6px;}
+.thumbnail {margin-bottom:30px;}
 
 a {
 color:$lite-red;}
