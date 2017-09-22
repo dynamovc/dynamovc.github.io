@@ -131,40 +131,51 @@ p {
 	}
 }
 
-/*
-#newsletter{
+#newsletter {
 	background-color: $green;
-	padding: 40px 0;
+	margin: 40px 0px;
+	padding: 50px;
+	
 }
 
-#newsletter h1, h2 {
-	color: $white;
+#newsletter_body {
+	padding: 20px;
+	margin:20px;
+	background: #fafafa;
+	border-radius: 10px;
 }
 
-#newsletter #mc_embed_signup_scroll h2, #newsletter .indicates-required {
-	display: none;
+#newsletter_field{
+	margin: 30px 0;
 }
 
-@media (max-width: 767px){
- 
- #newsletter h1, h2 {
- 	padding: 0 20px;
- }
-
- #newsletter h1 {
- 	font-size: 24px;
- }
-
-#newsletter h2 {
-	font-size: 18px;
- }
-
- #newsletter form {
- 	padding: 0 20px;
- 	margin-top: 10px;
- }
+#newsletter h1 {
+	color: $green;
+	font-weight: bolder;
 }
-*/
+
+#newsletter h2{
+	color: $lite-red;
+	margin-top: 0px;
+}
+
+@media (max-width: 500px){
+
+	#newsletter .input-group {
+		display: block !important;
+	}
+
+	#newsletter .btn {
+		margin-top: 15px;
+		border-radius: 3px;
+	}
+
+	#newsletter{
+		padding: 20px;
+	}
+}
+
+
 .btn-primary{
 	background: $dark-red;
 	border-color: $dark-red;
@@ -203,9 +214,12 @@ color:$lite-red;}
     margin-bottom: 30px;
 }
 
-body > .container {
-  padding: 60px 15px 0;
+#belief {
+	padding: 20px 15px 0;
 }
+/*body > .container {
+  padding: 60px 15px 0;
+}*/
 
 .footer > .container {
   padding-right: 15px;
