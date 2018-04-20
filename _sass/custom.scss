@@ -113,17 +113,32 @@ p {
 }
 
 .jumbotron{
-	background: url("/img/redBG.gif");
+	background-color: $dark-red;
 	
 }
 
 .jumbotronCamp{
-	background-color: $green;
+	background: url("/img/redBG.gif");
+	padding: 25px;
 	
+}
+
+
+#jumbotronCampLogo{
+	padding-top: 50px;
 }
 
 #jumboTitle, p.lead{
 	color: $white;
+}
+
+#jumboTitleCamp, p.camplead{
+	color: $white;
+}
+
+#sponsorRow{
+	background-color: $green;
+	margin: 10px;
 }
 
 #teamclear {
